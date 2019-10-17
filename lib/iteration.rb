@@ -6,7 +6,7 @@ while row_index < src.count do
   "I love #{[src][row_index][element_index][0]} and #{[src][row_index][1]} on my pizza"
       element_index += 1
     end
-      row_index += 1
+      [row_index] += 1
 end
 end
   
